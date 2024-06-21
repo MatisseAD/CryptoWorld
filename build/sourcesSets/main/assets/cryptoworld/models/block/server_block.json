@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cryptoworld:block/server_side",
+    "up": "cryptoworld:block/server_side",
+    "north": "cryptoworld:block/server",
+    "east": "cryptoworld:block/server_side",
+    "south": "cryptoworld:block/server_side",
+    "west": "cryptoworld:block/server_side",
+    "particle": "cryptoworld:block/server_side"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cryptoworld:block/cryptonium_block"
+    }
+  }
+}

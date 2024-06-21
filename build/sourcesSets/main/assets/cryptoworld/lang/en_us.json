@@ -1,0 +1,14 @@
+{
+  "item.cryptoworld.bitcoin": "Bitcoin",
+  "item.cryptoworld.ethereum": "Ethereum",
+  "item.cryptoworld.cryptonium_ingot": "Cryptonium Ingot",
+  "item.cryptoworld.gtx_1080": "GTX 1080",
+  "item.cryptoworld.rtx_2080": "RTX 2080",
+
+  "block.cryptoworld.server_block": "Server",
+  "block.cryptoworld.cryptonium_ore": "Cryptonium Ore",
+  "block.cryptoworld.silicium_ore": "Silicium Ore",
+  "block.cryptoworld.cryptonium_block": "Cryptonium Block",
+
+  "creativetab.crypto_tab": "Crypto World"
+}
