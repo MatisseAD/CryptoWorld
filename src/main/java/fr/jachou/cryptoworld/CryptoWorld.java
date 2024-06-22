@@ -20,7 +20,6 @@ public class CryptoWorld {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(bus);
-
         ModItems.register(bus);
         ModBlocks.register(bus);
 

@@ -22,7 +22,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, CryptoWorld.MODID);
 
     public static final RegistryObject<Block> SERVER_BLOCK = registerBlock("server_block",
-            () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK))));
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> SILICIUM_ORE = registerBlock("silicium_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6), (BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE))));
