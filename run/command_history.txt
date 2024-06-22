@@ -1,1 +1,4 @@
 /give Dev cryptoworld:bitcoin 64
+/gamemode survival
+/give Dev cryptoworld:server_block
+/give Dev cryptoworld:cryptonium_block
