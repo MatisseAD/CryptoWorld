@@ -22,6 +22,12 @@ public class ModItems {
     public static final RegistryObject<Item> GTX_1080 = ITEMS.register("gtx_1080",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SILICIUM = ITEMS.register("silicium",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SILICIUM_HYPERCHARGED = ITEMS.register("silicium_hypercharged",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> RTX_2080 = ITEMS.register("rtx_2080",
             () -> new Item(new Item.Properties()));
 

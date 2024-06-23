@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SRS",
+    "RQR",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "cryptoworld:silicium"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "cryptoworld:silicium_hypercharged",
+    "count": 4
+  }
+}

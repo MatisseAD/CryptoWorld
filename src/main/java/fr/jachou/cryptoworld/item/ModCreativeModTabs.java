@@ -25,6 +25,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CRYPTONIUM_INGOT.get());
                         pOutput.accept(ModItems.GTX_1080.get());
                         pOutput.accept(ModItems.RTX_2080.get());
+                        pOutput.accept(ModItems.SILICIUM.get());
+                        pOutput.accept(ModItems.SILICIUM_HYPERCHARGED.get());
 
                         // Blocks
                         pOutput.accept(ModBlocks.SERVER_BLOCK.get());
