@@ -1,7 +1,9 @@
 package fr.jachou.cryptoworld.item;
 
 import fr.jachou.cryptoworld.CryptoWorld;
+import fr.jachou.cryptoworld.item.custom.FuelItem;
 import fr.jachou.cryptoworld.item.custom.MetalDetector;
+import fr.jachou.cryptoworld.item.custom.SiliciumHyperCharged;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,7 +29,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> SILICIUM_HYPERCHARGED = ITEMS.register("silicium_hypercharged",
-            () -> new Item(new Item.Properties()));
+            () -> new SiliciumHyperCharged(new Item.Properties(), 800));
 
     public static final RegistryObject<Item> RTX_2080 = ITEMS.register("rtx_2080",
             () -> new Item(new Item.Properties()));

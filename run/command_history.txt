@@ -15,3 +15,4 @@
 /effect give Dev minecraft:hunger 100 255
 /effect clear
 /give Dev cryptoworld:ram 25
+/gamemode creative

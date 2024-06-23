@@ -4,6 +4,9 @@
   "item.cryptoworld.cryptonium_ingot": "Lingot de Cryptonium",
   "item.cryptoworld.gtx_1080": "GTX 1080",
   "item.cryptoworld.rtx_2080": "RTX 2080",
+  "item.cryptoworld.silicium": "Silicium",
+  "item.cryptoworld.silicium_hypercharged": "Silicium Hyperchargé",
+  "item.cryptoworld.silicium_detector": "Détecteur de Silicium",
 
   "block.cryptoworld.server_block": "Serveur",
   "block.cryptoworld.cryptonium_ore": "Minerai de Cryptonium",
