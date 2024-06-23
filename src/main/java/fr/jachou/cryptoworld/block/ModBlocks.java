@@ -2,10 +2,12 @@ package fr.jachou.cryptoworld.block;
 
 import fr.jachou.cryptoworld.CryptoWorld;
 import fr.jachou.cryptoworld.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,13 +22,13 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, CryptoWorld.MODID);
 
     public static final RegistryObject<Block> SERVER_BLOCK = registerBlock("server_block",
-            () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK))));
-
-    public static final RegistryObject<Block> CRYPTONIUM_ORE = registerBlock("cryptonium_ore",
-            () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE))));
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> SILICIUM_ORE = registerBlock("silicium_ore",
-            () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE))));
+            () -> new DropExperienceBlock(UniformInt.of(3, 6), (BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE))));
+
+    public static final RegistryObject<Block> CRYPTONIUM_ORE = registerBlock("cryptonium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(4, 6), (BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE))));
 
     public static final RegistryObject<Block> CRYPTONIUM_BLOCK = registerBlock("cryptonium_block",
             () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_BLOCK))));

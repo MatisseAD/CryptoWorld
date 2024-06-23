@@ -1,1 +1,17 @@
 /give Dev cryptoworld:bitcoin 64
+/gamemode survival
+/give Dev cryptoworld:server_block
+/give Dev cryptoworld:cryptonium_block
+/gamemode creative
+/gamemode survival
+/clear
+/gamemode creative
+/stopsound Dev
+/gamemode survival
+/give Dev minecraft:diamond_pickaxe
+/clear
+/effect give Dev minecraft:hunger
+/give Dev cryptoworld:ram
+/effect give Dev minecraft:hunger 100 255
+/effect clear
+/give Dev cryptoworld:ram 25
