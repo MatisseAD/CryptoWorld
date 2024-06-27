@@ -6,12 +6,16 @@
   "item.cryptoworld.rtx_2080": "RTX 2080",
   "item.cryptoworld.silicium": "Silicium",
   "item.cryptoworld.silicium_hypercharged": "Silicium Hypercharged",
-  "item.cryptoworld.silicium_detector": "Silicium Detector",
+  "item.cryptoworld.cryptoworld_detector": "CryptoOres Detector",
+  "item.cryptoworld.ram": "RAM",
 
   "block.cryptoworld.server_block": "Server",
   "block.cryptoworld.cryptonium_ore": "Cryptonium Ore",
   "block.cryptoworld.silicium_ore": "Silicium Ore",
   "block.cryptoworld.cryptonium_block": "Cryptonium Block",
+  "block.cryptoworld.silicium_block": "Silicium Block",
 
-  "creativetab.crypto_tab": "Crypto World"
+  "creativetab.crypto_tab": "Crypto World",
+
+  "tooltip.cryptoworld.cryptoworld_detector": "Detects Ores from the Crypto World"
 }

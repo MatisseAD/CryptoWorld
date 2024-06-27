@@ -1,266 +1,109 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-06-20 23:27:43 +0200"
+      "unlock_right_away": "2024-06-26 19:49:40 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2024-06-20 23:27:59 +0200",
-      "minecraft:plains": "2024-06-21 17:55:33 +0200"
+      "minecraft:desert": "2024-06-26 19:49:41 +0200"
     },
     "done": false
   },
-  "minecraft:recipes/decorations/smoker": {
+  "cryptoworld:recipes/misc/cryptonium_ingot_blasting_cryptonium_ore": {
     "criteria": {
-      "has_furnace": "2024-06-21 17:46:50 +0200"
+      "has_cryptonium_ore": "2024-06-26 19:49:47 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/coal": {
+  "cryptoworld:recipes/misc/cryptonium_ingot_smelting_cryptonium_ore": {
     "criteria": {
-      "has_coal_block": "2024-06-21 17:46:54 +0200"
+      "has_cryptonium_ore": "2024-06-26 19:49:47 +0200"
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "cryptoworld:recipes/misc/silicium_smelting_silicium_ore": {
     "criteria": {
-      "crafting_table": "2024-06-21 17:46:59 +0200"
+      "has_silicium_ore": "2024-06-26 19:49:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+  "cryptoworld:recipes/misc/silicium_blasting_silicium_ore": {
     "criteria": {
-      "has_iron_pickaxe": "2024-06-22 02:38:39 +0200"
+      "has_silicium_ore": "2024-06-26 19:49:48 +0200"
     },
     "done": true
   },
-  "minecraft:story/iron_tools": {
+  "cryptoworld:recipes/misc/silicium": {
     "criteria": {
-      "iron_pickaxe": "2024-06-22 02:38:39 +0200"
+      "has_silicium_block": "2024-06-27 14:26:56 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
-      "has_iron_pickaxe": "2024-06-22 02:38:39 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/torch": {
+  "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
-      "has_stone_pickaxe": "2024-06-22 02:38:40 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:story/upgrade_tools": {
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
     "criteria": {
-      "stone_pickaxe": "2024-06-22 02:38:40 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
     "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+  "minecraft:recipes/building_blocks/cut_sandstone": {
     "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_slab": {
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+  "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_button": {
-    "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stonecutter": {
-    "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_pressure_plate": {
-    "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone": {
-    "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_stairs": {
-    "criteria": {
-      "has_stone": "2024-06-22 16:49:36 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2024-06-22 18:50:18 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/observer": {
-    "criteria": {
-      "has_quartz": "2024-06-23 23:24:37 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/comparator": {
-    "criteria": {
-      "has_quartz": "2024-06-23 23:24:37 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
-    "criteria": {
-      "has_deepslate_diamond_ore": "2024-06-23 23:24:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_coal": "2024-06-23 23:23:53 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_torch": {
-    "criteria": {
-      "has_redstone": "2024-06-23 23:24:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2024-06-23 23:24:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dropper": {
-    "criteria": {
-      "has_redstone": "2024-06-23 23:24:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2024-06-23 23:24:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_block": {
-    "criteria": {
-      "has_redstone": "2024-06-23 23:24:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2024-06-23 23:24:37 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/note_block": {
-    "criteria": {
-      "has_redstone": "2024-06-23 23:24:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2024-06-23 23:24:37 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/target": {
-    "criteria": {
-      "has_redstone": "2024-06-23 23:24:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2024-06-23 23:23:53 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/compass": {
-    "criteria": {
-      "has_redstone": "2024-06-23 23:24:39 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2024-06-23 23:24:37 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/daylight_detector": {
-    "criteria": {
-      "has_quartz": "2024-06-23 23:24:37 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
-    "criteria": {
-      "has_deepslate_diamond_ore": "2024-06-23 23:24:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/piston": {
-    "criteria": {
-      "has_redstone": "2024-06-23 23:24:39 +0200"
+      "has_sandstone": "2024-06-27 14:35:55 +0200"
     },
     "done": true
   },

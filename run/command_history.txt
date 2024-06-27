@@ -16,3 +16,17 @@
 /effect clear
 /give Dev cryptoworld:ram 25
 /gamemode creative
+/seed
+/tp -4648 ~ -3176
+/tp /tp 3540 -14 -1771
+/tp 3540 -14 -1771
+/tp 3572 ~ -3964
+/effect give Dev minecraft:night_vision infinite 255 true
+/tp -1292 ~ -972
+/kill @e[type= !#forge:bosses]
+/time set day
+/forge tps
+/forge entity list
+/forge dimensions
+/forge track
+/give Dev minecraft:barrier

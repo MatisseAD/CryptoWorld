@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cryptonium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cryptoworld:cryptonium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cryptoworld:cryptonium_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cryptonium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cryptoworld:cryptonium_block"
+    ]
+  }
+}

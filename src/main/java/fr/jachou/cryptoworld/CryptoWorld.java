@@ -1,10 +1,12 @@
 package fr.jachou.cryptoworld;
 
 import fr.jachou.cryptoworld.block.ModBlocks;
+import fr.jachou.cryptoworld.datagen.DataGenerators;
 import fr.jachou.cryptoworld.item.ModCreativeModTabs;
 import fr.jachou.cryptoworld.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -41,6 +43,5 @@ public class CryptoWorld {
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-        // Initialisation côté client
     }
 }

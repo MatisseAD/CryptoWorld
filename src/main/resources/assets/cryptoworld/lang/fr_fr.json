@@ -6,12 +6,15 @@
   "item.cryptoworld.rtx_2080": "RTX 2080",
   "item.cryptoworld.silicium": "Silicium",
   "item.cryptoworld.silicium_hypercharged": "Silicium Hyperchargé",
-  "item.cryptoworld.silicium_detector": "Détecteur de Silicium",
+  "item.cryptoworld.cryptoworld_detector": "Détecteur de cryptominerais",
+  "item.cryptoworld.ram": "RAM",
 
   "block.cryptoworld.server_block": "Serveur",
   "block.cryptoworld.cryptonium_ore": "Minerai de Cryptonium",
   "block.cryptoworld.silicium_ore": "Minerai de Silicium",
   "block.cryptoworld.cryptonium_block": "Bloc de Cryptonium",
+  "block.cryptoworld.silicium_block": "Bloc de Silicium",
 
-  "creativetab.crypto_tab": "CryptoWorld"
+  "creativetab.crypto_tab": "CryptoWorld",
+  "tooltip.cryptoworld.cryptoworld_detector": "Le détecteur cryptoworld permet de détcter les minerais du monde cryptoworld"
 }

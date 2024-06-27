@@ -25,7 +25,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CRYPTONIUM_INGOT.get());
                         pOutput.accept(ModItems.GTX_1080.get());
                         pOutput.accept(ModItems.RTX_2080.get());
-                        pOutput.accept(ModItems.SILICIUM_DETECTOR.get());
+                        pOutput.accept(ModItems.CRYPTOWORLD_DETECTOR.get());
                         pOutput.accept(ModItems.RAM.get());
                         pOutput.accept(ModItems.SILICIUM.get());
                         pOutput.accept(ModItems.SILICIUM_HYPERCHARGED.get());
@@ -35,7 +35,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.CRYPTONIUM_ORE.get());
                         pOutput.accept(ModBlocks.SILICIUM_ORE.get());
                         pOutput.accept(ModBlocks.CRYPTONIUM_BLOCK.get());
-
+                        pOutput.accept(ModBlocks.SILICIUM_BLOCK.get());
                     })
                     .build());
 

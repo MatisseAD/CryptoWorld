@@ -1,0 +1,16 @@
+{
+  "modid": "cryptoworld",
+  "name": "CryptoWorld",
+  "description": "Description de votre mod",
+  "version": "1.0",
+  "mcversion": "1.20.4",
+  "url": "https://frouzie.fr",
+  "updateUrl": "",
+  "authorList": [
+    "Jachou"
+  ],
+  "credits": "Merci à tous",
+  "logoFile": "pack.png",
+  "screenshots": [],
+  "dependencies": []
+}

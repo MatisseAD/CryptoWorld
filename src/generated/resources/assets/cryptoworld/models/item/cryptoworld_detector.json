@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cryptoworld:item/cryptoworld_detector"
+  }
+}

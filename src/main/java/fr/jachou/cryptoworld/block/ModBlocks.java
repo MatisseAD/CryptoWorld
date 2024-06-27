@@ -27,11 +27,16 @@ public class ModBlocks {
     public static final RegistryObject<Block> SILICIUM_ORE = registerBlock("silicium_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6), (BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE))));
 
+    public static final RegistryObject<Block> SILICIUM_BLOCK = registerBlock("silicium_block",
+            () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK))));
+
     public static final RegistryObject<Block> CRYPTONIUM_ORE = registerBlock("cryptonium_ore",
             () -> new DropExperienceBlock(UniformInt.of(4, 6), (BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE))));
 
     public static final RegistryObject<Block> CRYPTONIUM_BLOCK = registerBlock("cryptonium_block",
             () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_BLOCK))));
+
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

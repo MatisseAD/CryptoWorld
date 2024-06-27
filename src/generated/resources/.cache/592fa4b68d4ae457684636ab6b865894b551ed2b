@@ -1,0 +1,5 @@
+// 1.20.4	2024-06-27T14:25:02.5921401	Tags for minecraft:block mod id cryptoworld
+747ae1ebd6835f5a47ebb1b78601114366938b0b data/cryptoworld/tags/blocks/metal_detectors.json
+05e6d8247883d4dda508bb6549255f75e6464ea7 data/minecraft/tags/blocks/mineable/pickaxe.json
+d6684b7c08a4867bc22eb36a76824b80091631de data/minecraft/tags/blocks/needs_diamond_tool.json
+1e50a96216878968943c66ed3e75f333f6655f42 data/minecraft/tags/blocks/needs_iron_tool.json
