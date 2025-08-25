@@ -36,6 +36,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CRYPTONIUM_BLOCK = registerBlock("cryptonium_block",
             () -> new Block((BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_BLOCK))));
 
+    public static final RegistryObject<Block> EXCHANGE_BLOCK = registerBlock("exchange_block",
+            () -> new ExchangeBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {

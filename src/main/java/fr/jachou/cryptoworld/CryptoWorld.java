@@ -1,9 +1,12 @@
 package fr.jachou.cryptoworld;
 
 import fr.jachou.cryptoworld.block.ModBlocks;
+import fr.jachou.cryptoworld.blockentity.ModBlockEntities;
 import fr.jachou.cryptoworld.datagen.DataGenerators;
 import fr.jachou.cryptoworld.item.ModCreativeModTabs;
 import fr.jachou.cryptoworld.item.ModItems;
+import fr.jachou.cryptoworld.menu.ModMenus;
+import fr.jachou.cryptoworld.util.PriceManager;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.data.event.GatherDataEvent;
@@ -24,11 +27,15 @@ public class CryptoWorld {
         ModCreativeModTabs.register(bus);
         ModItems.register(bus);
         ModBlocks.register(bus);
+        ModBlockEntities.register(bus);
+        ModMenus.register(bus);
 
         bus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
         bus.addListener(this::doClientStuff);
         bus.addListener(this::addCreative);
+
+        PriceManager.init();
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
