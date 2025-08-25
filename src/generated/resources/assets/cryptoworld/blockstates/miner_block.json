@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cryptoworld:block/miner_block"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 {
   "values": [
     "cryptoworld:silicium_ore",
-    "cryptoworld:server_block"
+    "cryptoworld:server_block",
+    "cryptoworld:miner_block"
   ]
 }

@@ -23,6 +23,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.CRYPTONIUM_ORE.get());
         this.dropSelf(ModBlocks.SERVER_BLOCK.get());
         this.dropSelf(ModBlocks.SILICIUM_ORE.get());
+        this.dropSelf(ModBlocks.MINER_BLOCK.get());
     }
 
     @Override

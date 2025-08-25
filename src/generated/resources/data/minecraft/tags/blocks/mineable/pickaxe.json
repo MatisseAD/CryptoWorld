@@ -5,6 +5,7 @@
     "cryptoworld:cryptonium_block",
     "cryptoworld:server_block",
     "cryptoworld:silicium_ore",
-    "cryptoworld:silicium_block"
+    "cryptoworld:silicium_block",
+    "cryptoworld:miner_block"
   ]
 }

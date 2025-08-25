@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "RFR",
+    "III"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "G": { "item": "cryptoworld:gtx_1080" },
+    "R": { "item": "cryptoworld:ram" },
+    "F": { "item": "cryptoworld:silicium_hypercharged" }
+  },
+  "result": { "item": "cryptoworld:miner_block" }
+}

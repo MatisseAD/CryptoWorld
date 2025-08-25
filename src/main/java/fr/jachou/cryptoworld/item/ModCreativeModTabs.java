@@ -36,6 +36,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SILICIUM_ORE.get());
                         pOutput.accept(ModBlocks.CRYPTONIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.SILICIUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.MINER_BLOCK.get());
                     })
                     .build());
 

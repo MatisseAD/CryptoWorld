@@ -14,6 +14,7 @@
   "block.cryptoworld.silicium_ore": "Minerai de Silicium",
   "block.cryptoworld.cryptonium_block": "Bloc de Cryptonium",
   "block.cryptoworld.silicium_block": "Bloc de Silicium",
+  "block.cryptoworld.miner_block": "Mineur",
 
   "creativetab.crypto_tab": "CryptoWorld",
   "tooltip.cryptoworld.cryptoworld_detector": "Le détecteur cryptoworld permet de détcter les minerais du monde cryptoworld"

@@ -1,6 +1,7 @@
 package fr.jachou.cryptoworld.block;
 
 import fr.jachou.cryptoworld.CryptoWorld;
+import fr.jachou.cryptoworld.block.MinerBlock;
 import fr.jachou.cryptoworld.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -20,6 +21,9 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CryptoWorld.MODID);
+
+    public static final RegistryObject<Block> MINER_BLOCK = registerBlock("miner_block",
+            () -> new MinerBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
 
     public static final RegistryObject<Block> SERVER_BLOCK = registerBlock("server_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
