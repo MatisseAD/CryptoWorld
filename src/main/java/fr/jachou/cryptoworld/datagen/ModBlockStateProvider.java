@@ -24,6 +24,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.SILICIUM_ORE);
         blockWithItem(ModBlocks.SILICIUM_BLOCK);
         blockWithItem(ModBlocks.SERVER_BLOCK);
+        blockWithItem(ModBlocks.EXCHANGE_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
