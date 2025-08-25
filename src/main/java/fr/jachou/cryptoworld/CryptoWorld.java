@@ -1,6 +1,10 @@
 package fr.jachou.cryptoworld;
 
 import fr.jachou.cryptoworld.block.ModBlocks;
+import fr.jachou.cryptoworld.blockentity.ModBlockEntities;
+import fr.jachou.cryptoworld.menu.ModMenuTypes;
+import fr.jachou.cryptoworld.screen.MinerScreen;
+import net.minecraft.client.gui.screens.MenuScreens;
 import fr.jachou.cryptoworld.datagen.DataGenerators;
 import fr.jachou.cryptoworld.item.ModCreativeModTabs;
 import fr.jachou.cryptoworld.item.ModItems;
@@ -24,6 +28,8 @@ public class CryptoWorld {
         ModCreativeModTabs.register(bus);
         ModItems.register(bus);
         ModBlocks.register(bus);
+        ModBlockEntities.register(bus);
+        ModMenuTypes.register(bus);
 
         bus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -43,5 +49,6 @@ public class CryptoWorld {
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
+        MenuScreens.register(ModMenuTypes.MINER_MENU.get(), MinerScreen::new);
     }
 }

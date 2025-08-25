@@ -64,6 +64,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(recipeOutput);
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MINER_BLOCK.get())
+                .pattern("IGI")
+                .pattern("RFR")
+                .pattern("III")
+                .define('I', Items.IRON_INGOT)
+                .define('G', ModItems.GTX_1080.get())
+                .define('R', ModItems.RAM.get())
+                .define('F', ModItems.SILICIUM_HYPERCHARGED.get())
+                .unlockedBy(getHasName(ModItems.GTX_1080.get()), has(ModItems.GTX_1080.get()))
+                .save(recipeOutput);
+
     }
 
     protected static <T extends AbstractCookingRecipe> void oreCooking(RecipeOutput pRecipeOutput, RecipeSerializer<T> pCookingSerializer,

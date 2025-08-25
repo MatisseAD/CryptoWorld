@@ -29,12 +29,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.CRYPTONIUM_BLOCK.get(),
                         ModBlocks.SERVER_BLOCK.get(),
                         ModBlocks.SILICIUM_ORE.get(),
-                        ModBlocks.SILICIUM_BLOCK.get());
+                        ModBlocks.SILICIUM_BLOCK.get(),
+                        ModBlocks.MINER_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.CRYPTONIUM_ORE.get()).add(ModBlocks.CRYPTONIUM_BLOCK.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.SILICIUM_ORE.get()).add(ModBlocks.SERVER_BLOCK.get());
+                .add(ModBlocks.SILICIUM_ORE.get())
+                .add(ModBlocks.SERVER_BLOCK.get())
+                .add(ModBlocks.MINER_BLOCK.get());
     }
 }
