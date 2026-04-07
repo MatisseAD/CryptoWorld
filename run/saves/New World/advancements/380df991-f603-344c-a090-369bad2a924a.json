@@ -107,5 +107,23 @@
     },
     "done": true
   },
+  "cryptoworld:recipes/misc/rtx_2080": {
+    "criteria": {
+      "has_bitcoin": "2026-04-07 20:34:00 +0200"
+    },
+    "done": true
+  },
+  "cryptoworld:recipes/decorations/server_block": {
+    "criteria": {
+      "has_bitcoin": "2026-04-07 20:34:00 +0200"
+    },
+    "done": true
+  },
+  "cryptoworld:recipes/misc/asic_mk1": {
+    "criteria": {
+      "has_bitcoin": "2026-04-07 20:34:00 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3700
 }

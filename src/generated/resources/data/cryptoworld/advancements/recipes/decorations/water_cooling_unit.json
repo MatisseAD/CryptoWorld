@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cryptoworld:water_cooling_unit"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_water_cooler": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cryptoworld:water_cooler"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_water_cooler"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cryptoworld:water_cooling_unit"
+    ]
+  }
+}

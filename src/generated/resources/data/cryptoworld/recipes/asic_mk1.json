@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "cryptoworld:bitcoin"
+    },
+    "C": {
+      "item": "cryptoworld:cryptonium_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "cryptoworld:silicium"
+    }
+  },
+  "pattern": [
+    "CBC",
+    "RGR",
+    "SIS"
+  ],
+  "result": {
+    "item": "cryptoworld:asic_mk1"
+  }
+}

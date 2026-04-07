@@ -24,6 +24,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SERVER_BLOCK.get());
         this.dropSelf(ModBlocks.SILICIUM_ORE.get());
         this.dropSelf(ModBlocks.MINER_BLOCK.get());
+        this.dropSelf(ModBlocks.SOLAR_PANEL.get());
+        this.dropSelf(ModBlocks.WIND_TURBINE.get());
+        this.dropSelf(ModBlocks.BATTERY_BANK.get());
+        this.dropSelf(ModBlocks.VENTILATION_UNIT.get());
+        this.dropSelf(ModBlocks.WATER_COOLING_UNIT.get());
     }
 
     @Override

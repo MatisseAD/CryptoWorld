@@ -15,6 +15,9 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<MinerBlockEntity>> MINER_BLOCK_ENTITY = BLOCK_ENTITIES.register("miner_block_entity",
             () -> BlockEntityType.Builder.of(MinerBlockEntity::new, ModBlocks.MINER_BLOCK.get()).build(null));
 
+    public static final RegistryObject<BlockEntityType<ServerBlockEntity>> SERVER_BLOCK_ENTITY = BLOCK_ENTITIES.register("server_block_entity",
+            () -> BlockEntityType.Builder.of(ServerBlockEntity::new, ModBlocks.SERVER_BLOCK.get()).build(null));
+
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
     }

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "cryptoworld:bitcoin"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "U": {
+      "item": "cryptoworld:grid_upgrade"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "RBR",
+    "UGU"
+  ],
+  "result": {
+    "item": "cryptoworld:server_block"
+  }
+}

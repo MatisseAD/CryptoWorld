@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "cryptoworld:block/wind_turbine_side",
+    "side": "cryptoworld:block/wind_turbine_side",
+    "top": "cryptoworld:block/wind_turbine_top"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "cryptoworld:battery_bank"
+    },
+    "C": {
+      "item": "cryptoworld:water_cooler"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "WBW",
+    "QCQ",
+    "WBW"
+  ],
+  "result": {
+    "item": "cryptoworld:water_cooling_unit"
+  }
+}

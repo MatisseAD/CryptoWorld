@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "all": "cryptoworld:block/server_block"
+    "bottom": "cryptoworld:block/server_block",
+    "side": "cryptoworld:block/server_side",
+    "top": "cryptoworld:block/server_block"
   }
 }

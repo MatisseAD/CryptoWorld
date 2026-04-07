@@ -1,15 +1,35 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "IGI",
-    "RFR",
-    "III"
-  ],
+  "category": "misc",
   "key": {
-    "I": { "item": "minecraft:iron_ingot" },
-    "G": { "item": "cryptoworld:gtx_1080" },
-    "R": { "item": "cryptoworld:ram" },
-    "F": { "item": "cryptoworld:silicium_hypercharged" }
+    "A": {
+      "item": "cryptoworld:air_cooler"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "G": {
+      "item": "cryptoworld:gtx_1080"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "cryptoworld:silicium_hypercharged"
+    },
+    "P": {
+      "item": "cryptoworld:psu_basic"
+    },
+    "R": {
+      "item": "cryptoworld:ram"
+    }
   },
-  "result": { "item": "cryptoworld:miner_block" }
+  "pattern": [
+    "PGA",
+    "RMR",
+    "ICI"
+  ],
+  "result": {
+    "item": "cryptoworld:miner_block"
+  }
 }

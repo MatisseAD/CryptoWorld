@@ -1,6 +1,13 @@
 {
   "values": [
     "cryptoworld:silicium_ore",
-    "cryptoworld:server_block"
+    "cryptoworld:silicium_block",
+    "cryptoworld:server_block",
+    "cryptoworld:miner_block",
+    "cryptoworld:solar_panel",
+    "cryptoworld:wind_turbine",
+    "cryptoworld:battery_bank",
+    "cryptoworld:ventilation_unit",
+    "cryptoworld:water_cooling_unit"
   ]
 }

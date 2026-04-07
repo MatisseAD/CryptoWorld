@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "I": {
+      "item": "cryptoworld:cryptonium_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "cryptoworld:silicium"
+    }
+  },
+  "pattern": [
+    " S ",
+    "RCR",
+    " I "
+  ],
+  "result": {
+    "item": "cryptoworld:cryptoworld_detector"
+  }
+}

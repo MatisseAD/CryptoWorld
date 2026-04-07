@@ -1,0 +1,351 @@
+{
+  "palettes": {
+    "cryptonium": {
+      "base": "#0f2030",
+      "mid": "#1d4e63",
+      "light": "#4cd8ff",
+      "shadow": "#09131c",
+      "accent": "#97f8ff",
+      "glow": "#2ac7ff"
+    },
+    "silicium": {
+      "base": "#18232e",
+      "mid": "#2b7d77",
+      "light": "#7ef0d4",
+      "shadow": "#0c141a",
+      "accent": "#c4fff4",
+      "glow": "#69ffd7"
+    },
+    "server": {
+      "base": "#1a1f2b",
+      "mid": "#355067",
+      "light": "#7cb1d9",
+      "shadow": "#0b0f15",
+      "accent": "#d9f4ff",
+      "glow": "#6acfff"
+    },
+    "miner": {
+      "base": "#231d1a",
+      "mid": "#5c4632",
+      "light": "#c79a54",
+      "shadow": "#0f0c0a",
+      "accent": "#ffe2a8",
+      "glow": "#ffb74d"
+    },
+    "bitcoin": {
+      "base": "#5a3200",
+      "mid": "#d67b00",
+      "light": "#ffd15a",
+      "shadow": "#241100",
+      "accent": "#fff2a8",
+      "glow": "#ffcf4d"
+    },
+    "ethereum": {
+      "base": "#24303d",
+      "mid": "#5c7388",
+      "light": "#d0dee9",
+      "shadow": "#10161d",
+      "accent": "#ffffff",
+      "glow": "#9bd8ff"
+    },
+    "chip": {
+      "base": "#1a2228",
+      "mid": "#4a6270",
+      "light": "#8fb6c9",
+      "shadow": "#0d1216",
+      "accent": "#dbf4ff",
+      "glow": "#61d8ff"
+    },
+    "detector": {
+      "base": "#2b1f16",
+      "mid": "#7b5d36",
+      "light": "#d7c78b",
+      "shadow": "#130d09",
+      "accent": "#f6f1ce",
+      "glow": "#72d8ff"
+    },
+    "solar": {
+      "base": "#1a2434",
+      "mid": "#2f5f94",
+      "light": "#83d7ff",
+      "shadow": "#0b1119",
+      "accent": "#effbff",
+      "glow": "#6ed2ff"
+    },
+    "wind": {
+      "base": "#1a2128",
+      "mid": "#5c7a8b",
+      "light": "#b8d8e8",
+      "shadow": "#0c1116",
+      "accent": "#f4fbff",
+      "glow": "#9bd8ff"
+    },
+    "battery": {
+      "base": "#231c24",
+      "mid": "#6c496b",
+      "light": "#f2a6ff",
+      "shadow": "#0d0a0f",
+      "accent": "#ffe2ff",
+      "glow": "#ff8df5"
+    },
+    "cooling": {
+      "base": "#14212c",
+      "mid": "#2e6d89",
+      "light": "#7fefff",
+      "shadow": "#081117",
+      "accent": "#e5fcff",
+      "glow": "#6ef4ff"
+    },
+    "power": {
+      "base": "#27210e",
+      "mid": "#8c6b1f",
+      "light": "#ffd76a",
+      "shadow": "#100b04",
+      "accent": "#fff1b2",
+      "glow": "#ffd047"
+    }
+  },
+  "blockModels": [
+    {
+      "name": "cryptonium_block",
+      "layout": "cube_all",
+      "all": "cryptonium_block"
+    },
+    {
+      "name": "cryptonium_ore",
+      "layout": "cube_all",
+      "all": "cryptonium_ore"
+    },
+    {
+      "name": "silicium_block",
+      "layout": "cube_all",
+      "all": "silicium_block"
+    },
+    {
+      "name": "silicium_ore",
+      "layout": "cube_all",
+      "all": "silicium_ore"
+    },
+    {
+      "name": "server_block",
+      "layout": "cube_bottom_top",
+      "side": "server_side",
+      "top": "server_block",
+      "bottom": "server_block"
+    },
+    {
+      "name": "miner_block",
+      "layout": "cube_bottom_top",
+      "side": "miner_side",
+      "top": "miner_top",
+      "bottom": "miner_top"
+    },
+    {
+      "name": "solar_panel",
+      "layout": "cube_bottom_top",
+      "side": "solar_panel_side",
+      "top": "solar_panel_top",
+      "bottom": "solar_panel_side"
+    },
+    {
+      "name": "wind_turbine",
+      "layout": "cube_bottom_top",
+      "side": "wind_turbine_side",
+      "top": "wind_turbine_top",
+      "bottom": "wind_turbine_side"
+    },
+    {
+      "name": "battery_bank",
+      "layout": "cube_bottom_top",
+      "side": "battery_bank_side",
+      "top": "battery_bank_top",
+      "bottom": "battery_bank_side"
+    },
+    {
+      "name": "ventilation_unit",
+      "layout": "cube_bottom_top",
+      "side": "ventilation_unit_side",
+      "top": "ventilation_unit_top",
+      "bottom": "ventilation_unit_side"
+    },
+    {
+      "name": "water_cooling_unit",
+      "layout": "cube_bottom_top",
+      "side": "water_cooling_unit_side",
+      "top": "water_cooling_unit_top",
+      "bottom": "water_cooling_unit_side"
+    }
+  ],
+  "textures": [
+    {
+      "path": "block/cryptonium_block",
+      "kind": "alloy_block",
+      "palette": "cryptonium"
+    },
+    {
+      "path": "block/cryptonium_ore",
+      "kind": "ore",
+      "palette": "cryptonium"
+    },
+    {
+      "path": "block/silicium_block",
+      "kind": "crystal_block",
+      "palette": "silicium"
+    },
+    {
+      "path": "block/silicium_ore",
+      "kind": "ore",
+      "palette": "silicium"
+    },
+    {
+      "path": "block/server_block",
+      "kind": "machine_top",
+      "palette": "server"
+    },
+    {
+      "path": "block/server_side",
+      "kind": "machine_side",
+      "palette": "server"
+    },
+    {
+      "path": "block/miner_top",
+      "kind": "machine_top",
+      "palette": "miner"
+    },
+    {
+      "path": "block/miner_side",
+      "kind": "machine_side",
+      "palette": "miner"
+    },
+    {
+      "path": "block/solar_panel_top",
+      "kind": "machine_top",
+      "palette": "solar"
+    },
+    {
+      "path": "block/solar_panel_side",
+      "kind": "machine_side",
+      "palette": "solar"
+    },
+    {
+      "path": "block/wind_turbine_top",
+      "kind": "machine_top",
+      "palette": "wind"
+    },
+    {
+      "path": "block/wind_turbine_side",
+      "kind": "machine_side",
+      "palette": "wind"
+    },
+    {
+      "path": "block/battery_bank_top",
+      "kind": "machine_top",
+      "palette": "battery"
+    },
+    {
+      "path": "block/battery_bank_side",
+      "kind": "machine_side",
+      "palette": "battery"
+    },
+    {
+      "path": "block/ventilation_unit_top",
+      "kind": "machine_top",
+      "palette": "cooling"
+    },
+    {
+      "path": "block/ventilation_unit_side",
+      "kind": "machine_side",
+      "palette": "cooling"
+    },
+    {
+      "path": "block/water_cooling_unit_top",
+      "kind": "machine_top",
+      "palette": "ethereum"
+    },
+    {
+      "path": "block/water_cooling_unit_side",
+      "kind": "machine_side",
+      "palette": "ethereum"
+    },
+    {
+      "path": "item/bitcoin",
+      "kind": "coin_btc",
+      "palette": "bitcoin"
+    },
+    {
+      "path": "item/ethereum",
+      "kind": "coin_eth",
+      "palette": "ethereum"
+    },
+    {
+      "path": "item/cryptonium_ingot",
+      "kind": "ingot",
+      "palette": "cryptonium"
+    },
+    {
+      "path": "item/silicium",
+      "kind": "crystal_item",
+      "palette": "silicium"
+    },
+    {
+      "path": "item/silicium_hypercharged",
+      "kind": "charged_crystal",
+      "palette": "silicium"
+    },
+    {
+      "path": "item/ram",
+      "kind": "chip",
+      "palette": "chip"
+    },
+    {
+      "path": "item/gtx_1080",
+      "kind": "gpu",
+      "palette": "server"
+    },
+    {
+      "path": "item/rtx_2080",
+      "kind": "gpu",
+      "palette": "miner"
+    },
+    {
+      "path": "item/cryptoworld_detector",
+      "kind": "detector",
+      "palette": "detector"
+    },
+    {
+      "path": "item/asic_mk1",
+      "kind": "chip",
+      "palette": "cryptonium"
+    },
+    {
+      "path": "item/psu_basic",
+      "kind": "gpu",
+      "palette": "power"
+    },
+    {
+      "path": "item/psu_redline",
+      "kind": "gpu",
+      "palette": "battery"
+    },
+    {
+      "path": "item/air_cooler",
+      "kind": "detector",
+      "palette": "cooling"
+    },
+    {
+      "path": "item/water_cooler",
+      "kind": "detector",
+      "palette": "ethereum"
+    },
+    {
+      "path": "item/grid_upgrade",
+      "kind": "chip",
+      "palette": "power"
+    },
+    {
+      "path": "item/collectible_token",
+      "kind": "coin_eth",
+      "palette": "battery"
+    }
+  ]
+}

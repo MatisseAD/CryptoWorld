@@ -1,5 +1,8 @@
-// 1.20.4	2024-06-27T14:25:02.5921401	Tags for minecraft:block mod id cryptoworld
+// 1.20.4	2026-04-05T20:26:57.280601158	Tags for minecraft:block mod id cryptoworld
 747ae1ebd6835f5a47ebb1b78601114366938b0b data/cryptoworld/tags/blocks/metal_detectors.json
-05e6d8247883d4dda508bb6549255f75e6464ea7 data/minecraft/tags/blocks/mineable/pickaxe.json
+a205d3323046d1b84e4d611f377a0254c8691a1e data/cryptoworld/tags/blocks/power_generators.json
+f3465cd468fc735ae807331504e94c4556bbef5a data/cryptoworld/tags/blocks/power_storage.json
+826aa5d4ba2213e75218f50a47728a30689dd986 data/cryptoworld/tags/blocks/server_room_cooling.json
+489ee51c1bc66dfb067562c2e73270ad4ef0b773 data/minecraft/tags/blocks/mineable/pickaxe.json
 d6684b7c08a4867bc22eb36a76824b80091631de data/minecraft/tags/blocks/needs_diamond_tool.json
-1e50a96216878968943c66ed3e75f333f6655f42 data/minecraft/tags/blocks/needs_iron_tool.json
+459513bc431c8494ba80f3728ceaf5b97f4601ab data/minecraft/tags/blocks/needs_iron_tool.json

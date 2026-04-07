@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "cryptoworld:bitcoin"
+    },
+    "C": {
+      "item": "cryptoworld:cryptonium_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "cryptoworld:gtx_1080"
+    },
+    "S": {
+      "item": "cryptoworld:silicium_hypercharged"
+    },
+    "X": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "pattern": [
+    "BDB",
+    "CGC",
+    "SXS"
+  ],
+  "result": {
+    "item": "cryptoworld:rtx_2080"
+  }
+}

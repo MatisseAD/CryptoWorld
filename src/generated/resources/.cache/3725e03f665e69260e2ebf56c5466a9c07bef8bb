@@ -1,1 +1,10 @@
-// 1.20.4	2024-06-24T21:06:17.4310165	Tags for minecraft:item mod id cryptoworld
+// 1.20.4	2026-04-05T20:26:57.278596604	Tags for minecraft:item mod id cryptoworld
+b447c210c1c6799ceaf74081d89d3266f221334c data/cryptoworld/tags/items/backup_cells.json
+83005954f22f7157012142e68c277d6b70a77b52 data/cryptoworld/tags/items/coins.json
+27983776c4ba3cabdaca46310088681d1979122d data/cryptoworld/tags/items/gpus.json
+7f48e636c4506c8ac3e86d56c30d3c6ba18800f1 data/cryptoworld/tags/items/grid_upgrades.json
+0e79d501e709b44c411ee06d6db71c8e354a7068 data/cryptoworld/tags/items/memories.json
+b447c210c1c6799ceaf74081d89d3266f221334c data/cryptoworld/tags/items/miner_fuel.json
+a3856950ac80fc8801a5e25d729fe0f397422c29 data/cryptoworld/tags/items/rig_compute.json
+661ac0412bd6999af921b32c1e7a2714a4bf06c2 data/cryptoworld/tags/items/rig_cooling.json
+cc12c7a4a429d4d4c2afe39013fe9174d86d2888 data/cryptoworld/tags/items/rig_psu.json

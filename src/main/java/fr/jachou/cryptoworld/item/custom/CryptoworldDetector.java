@@ -1,7 +1,6 @@
 package fr.jachou.cryptoworld.item.custom;
 
 import fr.jachou.cryptoworld.util.ModTags;
-import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;
@@ -11,12 +10,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
-import net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket;
-import net.minecraft.network.protocol.game.ClientboundSetEntityDataPacket;
-import net.minecraft.world.level.block.Blocks;
 
 import java.util.List;
 
@@ -26,52 +21,51 @@ public class CryptoworldDetector extends Item {
     }
 
     @Override
-    public InteractionResult useOn(UseOnContext pContext) {
-        if (!pContext.getLevel().isClientSide()) {
-            BlockPos blockPos = pContext.getClickedPos();
-            Player player = pContext.getPlayer();
+    public InteractionResult useOn(UseOnContext context) {
+        Level level = context.getLevel();
+        Player player = context.getPlayer();
+        if (player == null) {
+            return InteractionResult.PASS;
+        }
 
+        if (!level.isClientSide()) {
+            BlockPos clickedPos = context.getClickedPos();
             boolean foundBlock = false;
 
-
-            for (int i = 0; i <= blockPos.getY() + 64; i++) {
-                BlockState state = pContext.getLevel().getBlockState(blockPos.below(i));
+            for (int y = clickedPos.getY(); y >= level.getMinBuildHeight(); y--) {
+                BlockPos currentPos = new BlockPos(clickedPos.getX(), y, clickedPos.getZ());
+                BlockState state = level.getBlockState(currentPos);
 
                 if (isValuableBlock(state)) {
-                    outputValuableCoordinates(blockPos.below(i), player, state.getBlock());
+                    player.sendSystemMessage(Component.translatable(
+                            "message.cryptoworld.detector_found",
+                            state.getBlock().getName(),
+                            currentPos.getX(),
+                            currentPos.getY(),
+                            currentPos.getZ()
+                    ));
                     foundBlock = true;
                     break;
                 }
             }
 
             if (!foundBlock) {
-                player.sendSystemMessage(Component.literal("No valuable block found"));
+                player.sendSystemMessage(Component.translatable("message.cryptoworld.detector_none"));
             }
         }
 
-        pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(), (player) -> {
-            player.broadcastBreakEvent(player.getUsedItemHand());
-        });
-
-
-        return InteractionResult.SUCCESS;
+        context.getItemInHand().hurtAndBreak(1, player, currentPlayer ->
+                currentPlayer.broadcastBreakEvent(currentPlayer.getUsedItemHand()));
+        return InteractionResult.sidedSuccess(level.isClientSide());
     }
 
     @Override
-    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-
-        pTooltipComponents.add(Component.translatable("tooltip.cryptoworld.cryptoworld_detector"));
-
-        super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
-    }
-
-    private void outputValuableCoordinates(BlockPos blockPos, Player player, Block block) {
-        player.sendSystemMessage(Component.literal("Found " + I18n.get(block.getDescriptionId()) + " at " + blockPos.getX() + " " + blockPos.getY() + " " + blockPos.getZ()));
+    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltipComponents, TooltipFlag isAdvanced) {
+        tooltipComponents.add(Component.translatable("tooltip.cryptoworld.cryptoworld_detector"));
+        super.appendHoverText(stack, level, tooltipComponents, isAdvanced);
     }
 
     private boolean isValuableBlock(BlockState state) {
         return state.is(ModTags.Blocks.METAL_DETECTORS);
     }
-
-
 }

@@ -29,6 +29,13 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAM.get());
                         pOutput.accept(ModItems.SILICIUM.get());
                         pOutput.accept(ModItems.SILICIUM_HYPERCHARGED.get());
+                        pOutput.accept(ModItems.ASIC_MK1.get());
+                        pOutput.accept(ModItems.PSU_BASIC.get());
+                        pOutput.accept(ModItems.PSU_REDLINE.get());
+                        pOutput.accept(ModItems.AIR_COOLER.get());
+                        pOutput.accept(ModItems.WATER_COOLER.get());
+                        pOutput.accept(ModItems.GRID_UPGRADE.get());
+                        pOutput.accept(ModItems.COLLECTIBLE_TOKEN.get());
 
                         // Blocks
                         pOutput.accept(ModBlocks.SERVER_BLOCK.get());
@@ -37,6 +44,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.CRYPTONIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.SILICIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.MINER_BLOCK.get());
+                        pOutput.accept(ModBlocks.SOLAR_PANEL.get());
+                        pOutput.accept(ModBlocks.WIND_TURBINE.get());
+                        pOutput.accept(ModBlocks.BATTERY_BANK.get());
+                        pOutput.accept(ModBlocks.VENTILATION_UNIT.get());
+                        pOutput.accept(ModBlocks.WATER_COOLING_UNIT.get());
                     })
                     .build());
 
@@ -45,4 +57,3 @@ public class ModCreativeModTabs {
         CREATIVE_MODE_TABS.register(eventBus);
     }
 }
-

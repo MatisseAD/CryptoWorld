@@ -32,6 +32,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAM);
         simpleItem(ModItems.GTX_1080);
         simpleItem(ModItems.RTX_2080);
+        simpleItem(ModItems.ASIC_MK1);
+        simpleItem(ModItems.PSU_BASIC);
+        simpleItem(ModItems.PSU_REDLINE);
+        simpleItem(ModItems.AIR_COOLER);
+        simpleItem(ModItems.WATER_COOLER);
+        simpleItem(ModItems.GRID_UPGRADE);
+        simpleItem(ModItems.COLLECTIBLE_TOKEN);
 
     }
 

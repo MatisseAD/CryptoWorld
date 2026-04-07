@@ -1,6 +1,12 @@
-// 1.20.4	2024-06-27T14:25:02.5936372	Loot Tables
+// 1.20.4	2026-04-05T20:26:57.281164578	Loot Tables
+2597e9bfbf7b9589b23f4a18ed3fd37127ca5853 data/cryptoworld/loot_tables/blocks/battery_bank.json
 17d01b7cc0b509127b1c634bb2b5ff0ce165e299 data/cryptoworld/loot_tables/blocks/cryptonium_block.json
 6bf2db12fa9a1dbae2bf6384370335e7672275d4 data/cryptoworld/loot_tables/blocks/cryptonium_ore.json
+f35a679aba881decde0d8e3798fd133f29115061 data/cryptoworld/loot_tables/blocks/miner_block.json
 40c3e107b9e4272f17ab9357f138f38af2029938 data/cryptoworld/loot_tables/blocks/server_block.json
 24b22bab5b74e7c7b96a856927cd4e02fd15e2b1 data/cryptoworld/loot_tables/blocks/silicium_block.json
 abadbebeda12384111508a4e6b1ba2feb7051638 data/cryptoworld/loot_tables/blocks/silicium_ore.json
+cdb5c00fe710677214a674e54986772da0007b82 data/cryptoworld/loot_tables/blocks/solar_panel.json
+51ec2bd5931d4252bfdc7a46b60bac3891095b20 data/cryptoworld/loot_tables/blocks/ventilation_unit.json
+5854eedadd6c512e961f14bec903b0af3e6bcdc4 data/cryptoworld/loot_tables/blocks/water_cooling_unit.json
+13c8128c70a562e367160f011d3e553536dd2368 data/cryptoworld/loot_tables/blocks/wind_turbine.json

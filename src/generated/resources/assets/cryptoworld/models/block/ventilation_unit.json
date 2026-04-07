@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "cryptoworld:block/ventilation_unit_side",
+    "side": "cryptoworld:block/ventilation_unit_side",
+    "top": "cryptoworld:block/ventilation_unit_top"
+  }
+}

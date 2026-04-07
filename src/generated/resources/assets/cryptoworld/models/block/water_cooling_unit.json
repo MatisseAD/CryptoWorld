@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "cryptoworld:block/water_cooling_unit_side",
+    "side": "cryptoworld:block/water_cooling_unit_side",
+    "top": "cryptoworld:block/water_cooling_unit_top"
+  }
+}

@@ -2,19 +2,14 @@ package fr.jachou.cryptoworld;
 
 import fr.jachou.cryptoworld.block.ModBlocks;
 import fr.jachou.cryptoworld.blockentity.ModBlockEntities;
-import fr.jachou.cryptoworld.menu.ModMenuTypes;
-import fr.jachou.cryptoworld.screen.MinerScreen;
-import net.minecraft.client.gui.screens.MenuScreens;
-import fr.jachou.cryptoworld.datagen.DataGenerators;
 import fr.jachou.cryptoworld.item.ModCreativeModTabs;
 import fr.jachou.cryptoworld.item.ModItems;
+import fr.jachou.cryptoworld.menu.ModMenuTypes;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -32,9 +27,8 @@ public class CryptoWorld {
         ModMenuTypes.register(bus);
 
         bus.addListener(this::setup);
-        MinecraftForge.EVENT_BUS.register(this);
-        bus.addListener(this::doClientStuff);
         bus.addListener(this::addCreative);
+        MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
@@ -45,10 +39,6 @@ public class CryptoWorld {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        // Initialisation côté serveur
-    }
-
-    private void doClientStuff(final FMLClientSetupEvent event) {
-        MenuScreens.register(ModMenuTypes.MINER_MENU.get(), MinerScreen::new);
+        // Common setup hook reserved for future networking or compat init.
     }
 }
