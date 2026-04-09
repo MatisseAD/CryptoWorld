@@ -84,9 +84,10 @@ public class ServerMenu extends AbstractContainerMenu {
 
         checkContainerDataCount(data, DATA_COUNT);
 
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), ServerBlockEntity.GRID_SLOT_1, 182, 26));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), ServerBlockEntity.GRID_SLOT_2, 200, 26));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), ServerBlockEntity.BADGE_SLOT, 191, 50));
+        // Machine slots inside the side panel (right side of GUI)
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), ServerBlockEntity.GRID_SLOT_1, 176, 30));
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), ServerBlockEntity.GRID_SLOT_2, 194, 30));
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), ServerBlockEntity.BADGE_SLOT, 185, 52));
 
         addPlayerInventory(inventory);
         addPlayerHotbar(inventory);
@@ -333,14 +334,14 @@ public class ServerMenu extends AbstractContainerMenu {
     private void addPlayerInventory(Inventory inventory) {
         for (int row = 0; row < 3; ++row) {
             for (int column = 0; column < 9; ++column) {
-                this.addSlot(new Slot(inventory, column + row * 9 + 9, 26 + column * 18, 96 + row * 18));
+                this.addSlot(new Slot(inventory, column + row * 9 + 9, 10 + column * 18, 166 + row * 18));
             }
         }
     }
 
     private void addPlayerHotbar(Inventory inventory) {
         for (int slot = 0; slot < 9; ++slot) {
-            this.addSlot(new Slot(inventory, slot, 26 + slot * 18, 154));
+            this.addSlot(new Slot(inventory, slot, 10 + slot * 18, 224));
         }
     }
 

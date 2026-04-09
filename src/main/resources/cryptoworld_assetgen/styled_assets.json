@@ -88,6 +88,14 @@
       "accent": "#ffe2ff",
       "glow": "#ff8df5"
     },
+    "water_cooling": {
+      "base": "#12182a",
+      "mid": "#204d8c",
+      "light": "#5baeff",
+      "shadow": "#080c15",
+      "accent": "#c8e8ff",
+      "glow": "#4db3ff"
+    },
     "cooling": {
       "base": "#14212c",
       "mid": "#2e6d89",
@@ -260,12 +268,12 @@
     {
       "path": "block/water_cooling_unit_top",
       "kind": "machine_top",
-      "palette": "ethereum"
+      "palette": "water_cooling"
     },
     {
       "path": "block/water_cooling_unit_side",
       "kind": "machine_side",
-      "palette": "ethereum"
+      "palette": "water_cooling"
     },
     {
       "path": "item/bitcoin",
@@ -335,7 +343,7 @@
     {
       "path": "item/water_cooler",
       "kind": "detector",
-      "palette": "ethereum"
+      "palette": "water_cooling"
     },
     {
       "path": "item/grid_upgrade",

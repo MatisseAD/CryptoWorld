@@ -41,15 +41,20 @@ public class MinerMenu extends AbstractContainerMenu {
 
         checkContainerDataCount(data, MinerBlockEntity.DATA_COUNT);
 
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COMPUTE_SLOT_1, 17, 21));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COMPUTE_SLOT_2, 35, 21));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COMPUTE_SLOT_3, 17, 39));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COMPUTE_SLOT_4, 35, 39));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.PSU_SLOT, 17, 60));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COOLING_SLOT, 35, 60));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.MEMORY_SLOT, 53, 21));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.BACKUP_CELL_SLOT, 53, 60));
-        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.OUTPUT_SLOT, 143, 39) {
+        // Compute slots: 2×2 grid (top-left of left panel)
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COMPUTE_SLOT_1, 13, 17));
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COMPUTE_SLOT_2, 31, 17));
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COMPUTE_SLOT_3, 13, 35));
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COMPUTE_SLOT_4, 31, 35));
+        // PSU + Cooling slots (bottom row of left panel)
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.PSU_SLOT, 13, 57));
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.COOLING_SLOT, 31, 57));
+        // Memory slot (top of right column in left panel)
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.MEMORY_SLOT, 49, 17));
+        // Backup cell slot (bottom of right column in left panel)
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.BACKUP_CELL_SLOT, 49, 57));
+        // Output slot (right side of info panel)
+        this.addSlot(new SlotItemHandler(entity.getItemHandler(), MinerBlockEntity.OUTPUT_SLOT, 136, 36) {
             @Override
             public boolean mayPlace(ItemStack stack) {
                 return false;
@@ -114,14 +119,14 @@ public class MinerMenu extends AbstractContainerMenu {
     private void addPlayerInventory(Inventory inventory) {
         for (int row = 0; row < 3; ++row) {
             for (int column = 0; column < 9; ++column) {
-                this.addSlot(new Slot(inventory, column + row * 9 + 9, 8 + column * 18, 94 + row * 18));
+                this.addSlot(new Slot(inventory, column + row * 9 + 9, 8 + column * 18, 108 + row * 18));
             }
         }
     }
 
     private void addPlayerHotbar(Inventory inventory) {
         for (int slot = 0; slot < 9; ++slot) {
-            this.addSlot(new Slot(inventory, slot, 8 + slot * 18, 152));
+            this.addSlot(new Slot(inventory, slot, 8 + slot * 18, 166));
         }
     }
 

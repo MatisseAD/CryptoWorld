@@ -44,6 +44,11 @@
   "message.cryptoworld.detector_none": "Aucun minerai CryptoWorld sous cette colonne.",
   "message.cryptoworld.skin_applied": "Skin machine %1$s applique.",
 
+  "screen.cryptoworld.slot_compute": "CPU",
+  "screen.cryptoworld.slot_psu_cool": "ALI/REF",
+  "screen.cryptoworld.slot_mem_bak": "M/S",
+  "screen.cryptoworld.backup_bar_label": "^",
+  "screen.cryptoworld.overview_withdraw": "Retirer des coins vers l'inventaire :",
   "screen.cryptoworld.pool_button": "Pool : %1$s",
   "screen.cryptoworld.miner_status_idle": "Insere du materiel de calcul pour demarrer le rig.",
   "screen.cryptoworld.miner_status_active": "Profil de minage : %1$s",

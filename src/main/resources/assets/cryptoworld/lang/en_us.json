@@ -44,6 +44,11 @@
   "message.cryptoworld.detector_none": "No CryptoWorld ore found below this column.",
   "message.cryptoworld.skin_applied": "Applied machine skin %1$s.",
 
+  "screen.cryptoworld.slot_compute": "CPU",
+  "screen.cryptoworld.slot_psu_cool": "PSU/Cool",
+  "screen.cryptoworld.slot_mem_bak": "M/B",
+  "screen.cryptoworld.backup_bar_label": "^",
+  "screen.cryptoworld.overview_withdraw": "Withdraw coins to inventory:",
   "screen.cryptoworld.pool_button": "Pool: %1$s",
   "screen.cryptoworld.miner_status_idle": "Insert compute hardware to boot the rig.",
   "screen.cryptoworld.miner_status_active": "Mining profile: %1$s",
